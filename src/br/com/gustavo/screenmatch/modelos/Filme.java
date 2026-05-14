@@ -8,14 +8,29 @@ public class Filme {
     private int totalDeAvaliacoes;
     private int duracaoEmMinutos;
 
-   public int getTotalDeAvaliacoes(){
+    public String getNome() {
+        return nome;
+    }
+
+    public int getAnoDeLacamento() {
+        return anoDeLacamento;
+    }
+
+    public boolean isIncluidoNoPlano() {
+        return incluidoNoPlano;
+    }
+
+    public int getDuracaoEmMinutos() {
+        return duracaoEmMinutos;
+    }
+
+    public int getTotalDeAvaliacoes(){
         return totalDeAvaliacoes;
     }
 
     public void setNome(String nome) {
         this.nome = nome;
     }
-
 
     public void setAnoDeLacamento(int anoDeLacamento) {
         this.anoDeLacamento = anoDeLacamento;
